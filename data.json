@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1742647149453,
+    "title": "1934",
+    "author": "George Ourel",
+    "genre": "classic",
+    "year": "2001",
+    "pages": "372",
+    "published": "1892"
+  },
+  {
+    "id": 1742650752259,
+    "title": "1984",
+    "author": "Johnny Adisson",
+    "genre": "Dramatical",
+    "year": "2013",
+    "pages": "248",
+    "published": "undefined"
+  },
+  {
+    "id": 1742667860194,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Romance",
+    "year": "1813",
+    "pages": "448"
+  },
+  {
+    "id": 1742669970044,
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "genre": "Biography",
+    "year": "2011",
+    "pages": "656",
+    "published": "undefined"
+  },
+  {
+    "id": 1742838137855,
+    "title": "Qo'rqma",
+    "author": "Javlon Jovliyev",
+    "genre": "Historic dramatic",
+    "year": "2020",
+    "pages": "376"
+  }
+]

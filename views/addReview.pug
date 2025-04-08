@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title Add Review
+    link(rel="stylesheet", href="/styles/style.css")
+  body
+    .review-box
+      h1 Add Review
+      form(action="/reviews" method="POST")
+        input.book-id(type="hidden" name="bookId" value=bookId)
+        label.rate-label(for="rate") Rate:
+        input.rate-input(id="rate" type="number" name="rate" min="1" max="5" required)
+        label.message-label(for="message") Review:
+        textarea.submit-btn(id="message" name="message" required)
+        button.btn.btn-success(type="submit") Submit Review
+      a.btn.btn-secondary(href="/homepage") Back to Homepage

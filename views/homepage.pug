@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title Book Review App
+    link(rel="stylesheet", href="/styles/style.css")
+    script(src="/javascripts/main.js")
+  body
+    .container
+      h1 Book List
+      input#search-bar(type="text" placeholder="Search for a book...")
+      .book-list
+        each book in books
+          .book-card(data-title=book.title.toLowerCase())
+            h2= book.title
+            p Author: #{book.author}
+            p Genre: #{book.genre}
+            p Published: #{book.year}
+            p Pages: #{book.pages}
+            .buttons
+              a.btn.btn-primary(href=`/addReview/${book.id}`) Add Review
+              a.btn.btn-success(href=`/reviews/${book.id}`) Read Reviews
+              a.btn.btn-secondary(href=`/editBook/${book.id}`) Edit Book
+              form.inline-form(action=`/deleteBook/${book.id}` method="post" onsubmit="return confirm('Are you sure?')") 
+                button.btn-danger(type="submit") Delete
+             
+
+      a(href="/newBook" class="btn btn-success") Add New Book
+

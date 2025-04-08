@@ -1,0 +1,397 @@
+/* General Styles */
+body {
+    font-family: 'Merriweather', serif; /* Elegant book-style font */
+    background: linear-gradient(to bottom, #f3e7d9, #d8bba3); /* Warm paper-like gradient */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Description Paragraph */
+  p.descriptcw {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5a3e2b; /* Darker brown, like classic book fonts */
+    text-align: center;
+    padding: 10px;
+    line-height: 1.6;
+  }
+
+  a.book-btn {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #8b4513;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: 2px solid #5a3e2b;
+  }
+  
+  a.book-btn:hover {
+    background: #5a3e2b;
+    color: #f3e7d9;
+  }
+
+  /*Homepage*/
+  .container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 28px;
+    color: #4a2f1c;
+}
+#search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #5a3e2b;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.book-list {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping if screen is small */
+  gap: 20px; /* Adds spacing between cards */
+  justify-content: center; /* Centers the cards */
+}
+
+.book-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Fixed width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-card h2 {
+  color: brown;
+}
+
+.book-card p {
+  margin: 5px 0;
+}
+
+.book-card .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+.book-card .buttons a.btn{
+  width: 100px;
+  margin: auto;
+  font-size: 12px;
+  text-align: center;
+  padding: 7px;
+}
+
+.btn-primary { 
+  background: #3498db; 
+  color: white; 
+  border: none;
+  padding: 7px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.btn-secondary { 
+  background: #e59316; 
+  color: white; 
+  border: none;
+  margin-top: 20px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+.btn-secondary:hover{
+  background: #db8223;
+  text-decoration: none;
+}
+.btn-danger { 
+  background: #e74c3c; 
+  width: 50%;
+  margin: auto;
+  color: white; 
+  border: none; 
+  padding: 7px;
+  cursor: pointer; 
+  border-radius: 8px;
+}
+#deleterev{
+  width: 50%;
+}
+#editrev{
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 100;
+  background: #28a745;
+}
+.btn-success { 
+  background: #27ae60; 
+  color: white; 
+  border: none;
+  padding: 7px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.inline-form { 
+  display: inline; 
+}
+.inline-form button.btn-danger{
+  width: 100px;
+}
+
+/*--------Add new book--------*/
+.new-book-page{
+  width: 80%;
+  max-width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: auto;
+}
+/* Styles specific to newBook.pug */
+.new-book-page {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: auto;
+}
+
+.new-book-page h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.new-book-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.new-book-page input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 90%;
+}
+
+.new-book-page button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.new-book-page button:hover {
+  background-color: #218838;
+}
+.buttons a{
+  text-decoration: none;
+}
+.review-box{
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 450px;
+  width: 100%;
+}
+.review-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-actions a.btn.btn-warning{
+  width: 100px;
+  height: 40px;
+  margin-right: 10px;
+  background: #29e93f; 
+  color: white; 
+  border: none; 
+  cursor: pointer; 
+  border-radius: 8px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.review-content{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.message_rev{
+  max-width: 80%;
+}
+.review-actions{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.delete-review{
+  width: 100px;
+  height: 40px;
+  margin-right: 10px;
+  font-weight: 500;
+}
+.delete-review:hover{
+  background: black;
+}
+form{
+  margin-left: auto;
+}
+label{
+  font-weight: bold;
+}
+input, textarea{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+textarea{
+  resize: vertical;
+  height: 100px;
+}
+
+#edit-book-title {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Form */
+#bookForm {
+  display: flex;
+  flex-direction: column;
+}
+#bookForm a.btn.btn-secondary{
+  text-align: center;
+  font-weight: 800;
+  margin-left: 20px;
+  padding: 12px;
+}
+/* Form Groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Submit Button */
+#update-book-btn {
+  background: #34b529;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+.edit_review{
+  position: relative;
+}
+#update-book-btn:hover {
+  background: #0cab3c;
+}
+.edit_review textarea{
+  margin-bottom: 20px;
+}
+.edit_review a.btn.btn-secondary{
+  display: flex;
+  justify-content: center;
+}
+.edit_review button.btn.btn-success{
+  width: 87%;
+  height: 35px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+#cancel_editrev{
+  width: 86%;
+  height: 25px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.container2 {
+  width: 60%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
