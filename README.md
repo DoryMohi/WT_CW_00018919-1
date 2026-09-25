@@ -9,19 +9,19 @@ An open-source, full-stack web application built with Node.js, Express, and Pug 
 This project was developed as part of the **Web Technology** module. The primary goal of the application is to create an accessible platform where readers can explore book recommendations, post detailed reviews, and add new titles to a shared database.
 
 ### Key Functionality
-* **Full CRUD Operations:** Create, Read, Update, and Delete books and reviews[cite: 1].
+* **Full CRUD Operations:** Create, Read, Update, and Delete books and reviews.
 * **Book Discovery:** Search and browse through community-contributed books and ratings.
 * **Input Validation:** Built-in email and content format validation across forms.
-* **Interactive UI:** Rendered dynamically using the Pug template engine[cite: 1, 2].
+* **Interactive UI:** Rendered dynamically using the Pug template engine.
 
 ---
 
 ## 🛠️ Tech Stack & Dependencies
 
-* **Backend Framework:** Node.js, Express.js[cite: 1, 2]
-* **Template Engine:** Pug[cite: 1, 2]
-* **Middleware:** `body-parser`[cite: 1, 2]
-* **Database Updates:** Asynchronous data management[cite: 1, 2]
+* **Backend Framework:** Node.js, Express.js
+* **Template Engine:** Pug
+* **Middleware:** `body-parser`
+* **Database Updates:** Asynchronous data management
 
 ---
 
@@ -30,7 +30,7 @@ This project was developed as part of the **Web Technology** module. The primary
 Follow these steps to run the project on your local machine:
 
 ### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) installed on your computer[cite: 1].
+Make sure you have [Node.js](https://nodejs.org/) installed on your computer.
 
 ### Installation & Setup
 
