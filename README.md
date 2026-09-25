@@ -1,35 +1,40 @@
-# 
+# 📚 Book Review Web Application
 
-In the module of Web Technology, we need to create a CRUD functionality project with Javascript, Node.js and Express.js. There are given couple of options to do, and we can find it by ourselves 
+An open-source, full-stack web application built with Node.js, Express, and Pug templates that allows users to search for books, read community reviews, share their own thoughts, and manage book listings.
 
-I've decided to choose Book Review App, because it seems more interesting and when I read something comes to my brain what I need to do for this project. The overall purpose of the project is sharing the reviews and opinions about the book with others. It is open source web application, everyone can enter and leave their opinions about the existed books, if there is no available  the book which they wanted they can add, and leave their reviews on each book. Additionally, there are some cases that people cannot choose the book to read because they don't know what kind of book is that. At that time as well they can enter and search their favourite book, read reviews and decide to read it or not. 
+---
 
-The user may have some questions how to run the project locally. I'll provide the full guidelines step by step. 
-1. After installing the project to IDE, open the terminal and type "npm install" it wil install all necessary folders, files and dependencies which are necessary to my project. 
-2. The 2nd command will be "nodemon app.js", when you type this command in terminal, it will gives you link on which server it is running. You need to copy the link, and paste to the browser. Finally, you have an access to see my project in your browser.
+## 📌 Project Overview
 
-Here is the dependencies list which I've installed, but I know that not all of them are necessary, but I don't want to remove them. 
-1. bcryptjs
-2. body-parser
-3. cookie-parser
-4. dotenv
-5. express
-6. jsonwebtoken
-7. pug
+This project was developed as part of the **Web Technology** module. The primary goal of the application is to create an accessible platform where readers can explore book recommendations, post detailed reviews, and add new titles to a shared database.
 
-but I've used only:
-1. express
-2. body-parser
-3. pug
+### Key Functionality
+* **Full CRUD Operations:** Create, Read, Update, and Delete books and reviews[cite: 1].
+* **Book Discovery:** Search and browse through community-contributed books and ratings.
+* **Input Validation:** Built-in email and content format validation across forms.
+* **Interactive UI:** Rendered dynamically using the Pug template engine[cite: 1, 2].
 
-LINKS:
+---
 
-Here is the link for public repo in GitHub: https://github.com/mzokirova/WT_CW_00018919.git 
+## 🛠️ Tech Stack & Dependencies
 
-Here is the link for hosted website:   https://github.com/mzokirova/WT_CW_00018919.git
+* **Backend Framework:** Node.js, Express.js[cite: 1, 2]
+* **Template Engine:** Pug[cite: 1, 2]
+* **Middleware:** `body-parser`[cite: 1, 2]
+* **Database Updates:** Asynchronous data management[cite: 1, 2]
 
-TIPS:
-1. There maybe some waiting times when you are deleting and adding, because it will update the database, just wait 1-2 seconds
-2. When you want to delete the review, just after adding new review, it may not delete because it hasn't saved yet. For that just refresh reviews page, and then delete. 
-3. It has email validation and couple of content validation by requiring to fill the inputs in a correct format. 
+---
 
+## 🚀 Getting Started Locally
+
+Follow these steps to run the project on your local machine:
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your computer[cite: 1].
+
+### Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/mzokirova/WT_CW_00018919.git](https://github.com/mzokirova/WT_CW_00018919.git)
+   cd WT_CW_00018919
